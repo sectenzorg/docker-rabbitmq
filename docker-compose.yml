@@ -13,8 +13,8 @@ services:
         - rabbitmq-svc:/var/lib/rabbitmq/
         - rabbitmq-svc:/var/log/rabbitmq
     environment:
-      - RABBITMQ_DEFAULT_USER=sectenzorg
-      - RABBITMQ_DEFAULT_PASS=P@ssw0rd123!@#
+      - RABBITMQ_DEFAULT_USER: admin
+      - RABBITMQ_DEFAULT_PASS: P@ssw0rd123!@#
     networks:
         - rabbitmq_net
 
