@@ -2,10 +2,10 @@
 Dockerize RabbitMQ
 
 ## Installation
-# Run OCI Image
+### Run OCI Image
 docker compose up -d
 
-# (Optional) Recreate Run OCI Image
+### (Optional) Recreate Run OCI Image
 docker compose up --build --force-recreate -d
 ```
 ## Access Sonarqube
